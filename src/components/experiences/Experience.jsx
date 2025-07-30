@@ -7,8 +7,8 @@ import Rating from '@mui/material/Rating';
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>wht skills i have</h5>
-      <h2>My Experience </h2>
+      <h5>What skills i have</h5>
+      <h2>My Tools </h2>
 
       <div className='container experience__container'>
           <div className='experience__front-end'>
@@ -44,7 +44,7 @@ const Experience = () => {
                 <a href="#" className="experience__details-icon"><CheckCircleIcon /></a>
                 <div>
                 <h4>ReactJs</h4>
-                <Rating name="half-rating-read"defaultValue={2} max={2} precision={0.5} readOnly />
+                <Rating name="half-rating-read"defaultValue={3} max={3} precision={0.5} readOnly />
                 </div>          
               </article>
 
@@ -52,7 +52,15 @@ const Experience = () => {
                 <a href="#" className="experience__details-icon"><CheckCircleIcon /></a>
                 <div>
                 <h4>Bootstrap</h4>
-                <Rating name="half-rating-read" defaultValue={2} max={2} precision={0.5} readOnly />
+                <Rating name="half-rating-read" defaultValue={3} max={3} precision={0.5} readOnly />
+                </div>            
+              </article>
+
+              <article className='experience__details'>
+                <a href="#" className="experience__details-icon"><CheckCircleIcon /></a>
+                <div>
+                <h4>Tailwindcss</h4>
+                <Rating name="half-rating-read" defaultValue={3} max={3} precision={0.5} readOnly />
                 </div>            
               </article>
             </div>
@@ -90,7 +98,7 @@ const Experience = () => {
                 <a href="#" className="experience__details-icon"><CheckCircleIcon /></a>
                 <div>
                 <h4>PHP</h4>
-                <Rating name="half-rating-read" defaultValue={2} max={2} precision={0.5} readOnly />
+                <Rating name="half-rating-read" defaultValue={4} max={4} precision={0.5} readOnly />
                 </div>
               </article>
 
@@ -98,7 +106,7 @@ const Experience = () => {
                 <a href="#" className="experience__details-icon"><CheckCircleIcon /></a>
                 <div>
                   <h4>MySQL</h4>
-                  <Rating name="half-rating-read" defaultValue={2} max={2} precision={0.5} readOnly />
+                  <Rating name="half-rating-read" defaultValue={4} max={4} precision={0.5} readOnly />
                 </div>               
               </article>
             </div>

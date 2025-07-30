@@ -9,7 +9,6 @@ import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.jpg"
 
 
-
 import { Pagination  } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -68,7 +67,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>item portfolio</h5>
+      <h5>My project</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {

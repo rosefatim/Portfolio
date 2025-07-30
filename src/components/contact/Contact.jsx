@@ -13,7 +13,7 @@ const Contact = () => {
             <Markunread className='contact__option-icon' /> 
             <h4>Email</h4>
             <h5>rosecoulibaly30@ gmail.com</h5>
-            <a href='mailto:rosecoulibaly30@gmail.com'>Envoyer un message</a>
+            <a href='mailto:rosecoulibaly30@gmail.com'>Envoyer un email</a>
           </article>
           <article className='contact__option'>
             <LinkedIn className='contact__option-icon' /> 
@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
         <form action="">
           <input type='text' name="name" placeholder='Nom et prénoms'/>
-          <input type='email' name="email" placeholder='Email'/>
+          <input type='email' name="email" placeholder='Email' required/>
           <textarea name='message' rows="8" placeholder='Votre message' required></textarea>
           <button type='submit' className='btn btn-primary'>Envoyer</button>
         </form>

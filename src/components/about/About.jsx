@@ -19,23 +19,21 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <a href="#" className="about__icon"><WorkspacePremium /></a>
-              <h5>Experience</h5>
-              <small>1+ year </small>
+              <h5>Experiences</h5>
+              <small>3 years </small>
             </article>
 
             <article className="about__card">
-              <a href="#" className="about__icon"><FolderSpecial /></a>
+              <a href="#portfolio" className="about__icon"><FolderSpecial /></a>
               <h5>Projects</h5>
               <small>5 completed</small>
             </article>
           </div>
           <p>
-            Refutaremus male orationi Tecum refutaremus beneficium erga istam et
-            et tuus neque postulabat te illum partem meae decebat istam
-            animadvertere enim nostro versari aliquis versari animadvertere
-            moderatur male suscepisset more.
-          </p>
-          <a href="#conatct" className="btn btn-primary"> Contactez-moi</a>
+            Je suis Fatim Coulibaly développeur web Fullstack.
+
+            I have rich experience in building and customizing websites and app, also I am good at logo designing. Recently I have started learning machine learning and have created great apps which are mention below</p>
+          <a href="#contact" className="btn btn-primary"> Contactez-moi</a>
         </div>
       </div>
     </section>
