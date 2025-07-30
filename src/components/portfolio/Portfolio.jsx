@@ -1,9 +1,9 @@
 import React from 'react'
 import "./portfolio.css"
 
-import IMG1 from "../../assets/portfolio1.jpg"
+import IMG1 from "../../assets/Youtube_logo.png"
 import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
+import IMG3 from "../../assets/facebook_logo.png"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.jpg"
@@ -21,22 +21,22 @@ const data = [
   {
     id:1,
     image: IMG1,
-    title: "portfolio item title",
-    github:"https://github.com" ,
-    demo : "https://dribbble.com/Alien_pixels",
+    title: "Youtube clone",
+    github:"https://github.com/rosefatim/myYoutube" ,
+    demo : "https://youtube-clonebyme.netlify.app/",
   },
   {
     id:2,
     image: IMG2,
-    title: "portfolio item title",
+    title: "ATS web site",
     github:"https://github.com" ,
-    demo : "https://dribbble.com/Alien_pixels",
+    demo : "https://site-ats.netlify.app/",
   },
   {
     id:3,
     image: IMG3,
-    title: "portfolio item title",
-    github:"https://github.com" ,
+    title: "Facebook clone",
+    github:"https://github.com/rosefatim/facebook-next" ,
     demo : "https://dribbble.com/Alien_pixels",
   },
   {
