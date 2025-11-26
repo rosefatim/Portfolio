@@ -29,14 +29,27 @@ const About = () => {
               <small>5 completed</small>
             </article>
           </div>
-          <p>
-            Je suis Fatim Coulibaly développeur web Fullstack.
+          <div className="about__summary">
+            <p>
+              Je suis Fatim Coulibaly développeur web Fullstack.
+            </p>
+            <p>
+              je conçois des applications modernes, performantes et centrées sur des architectures modulaires et maintenables.
+              Je maîtrise des technologies comme React, TailwindCSS, PHP, NodeJs ainsi que l’intégration d’API REST sécurisées.
+            </p>
+            <p>
+              J’ai également développé plusieurs projets incluant un raccourcisseur d’URL avec API, un SIRH avec plusieurs modules intégrés comme la gestion des salaires,la gestion des absences et présences et bien d'autre, une application de gestion de tâches collaborative et divers outils de gestion connectés à une base de données.
+              Rigoureuse sur la qualité du code, j’utilise des pratiques comme la validation côté client/serveur, l'écriture de code modulaire,et le versionnement Git.
+            </p>
+            <p>
+              Mon objectif : créer des interfaces performantes, fiables et scalables tout en continuant à apprendre et à relever de nouveaux défis.
+            </p>
+          </div>
 
-            I have rich experience in building and customizing websites and app, also I am good at logo designing. Recently I have started learning machine learning and have created great apps which are mention below</p>
           <a href="#contact" className="btn btn-primary"> Contactez-moi</a>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 
