@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/CV_Rose_Fatim_COULIBALY.pdf";
+import CV from "../../assets/CV de Kalitia Rose Fatim Coulibaly.pdf";
 
 const CTA = () => {
   return (

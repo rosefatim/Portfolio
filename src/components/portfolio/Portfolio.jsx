@@ -46,7 +46,6 @@ const data = [
     github: "https://github.com/rosefatim/facebook-next",
     demo: "https://dribbble.com/Alien_pixels",
   },
-
   {
     id: 5,
     image: IMG5,
