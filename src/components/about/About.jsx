@@ -20,7 +20,7 @@ const About = () => {
             <article className="about__card">
               <a href="#" className="about__icon"><WorkspacePremium /></a>
               <h5>Experiences</h5>
-              <small>3 years </small>
+              <small>4 years </small>
             </article>
 
             <article className="about__card">
