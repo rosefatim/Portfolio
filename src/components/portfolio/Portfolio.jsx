@@ -5,7 +5,7 @@ import IMG1 from "../../assets/Youtube_logo.png"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/facebook_logo.png"
 import IMG4 from "../../assets/bantoo.png"
-import IMG5 from "../../assets/portfolio5.png"
+import IMG5 from "../../assets/pnp-logo.png"
 import IMG6 from "../../assets/portfolio6.jpg"
 
 
@@ -20,46 +20,47 @@ import 'swiper/css/pagination';
 const data = [
   {
     id: 1,
+    image: IMG5,
+    title: "Plan&Play",
+    github: "",
+    demo: "https://services.plan-n-play.net/Secure/login",
+  },
+  {
+    id: 2,
+    image: IMG6,
+    title: "JLPC dashboard",
+    github: "https://github.com/rosefatim/JLPC_dashbord",
+    demo: "https://jlpc-dashboard.netlify.app/",
+  },
+  {
+    id: 3,
     image: IMG4,
     title: "Bantoo logiel SIRH",
     github: "https://github.com",
     demo: "https://bantoo.ci/",
   },
   {
-    id: 2,
-    image: IMG1,
-    title: "Youtube clone",
-    github: "https://github.com/rosefatim/myYoutube",
-    demo: "https://youtube-clonebyme.netlify.app/",
-  },
-  {
-    id: 3,
+    id: 4,
     image: IMG2,
     title: "ATS web site",
     github: "https://github.com",
     demo: "https://site-ats.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
+    image: IMG1,
+    title: "Youtube clone",
+    github: "https://github.com/rosefatim/myYoutube",
+    demo: "https://youtube-clonebyme.netlify.app/",
+  },
+  {
+    id: 6,
     image: IMG3,
     title: "Facebook clone",
     github: "https://github.com/rosefatim/facebook-next",
     demo: "https://dribbble.com/Alien_pixels",
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: "portfolio item title",
-    github: "https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "portfolio item title",
-    github: "https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
-  },
+
 
 ]
 
@@ -94,3 +95,4 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+

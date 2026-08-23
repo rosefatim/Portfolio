@@ -1,6 +1,6 @@
-/* #portfolio{
-    margin-top: 75%;
-} */
+#portfolio{
+    margin-top: 35%;
+}
 
 .portfolio__container{
     display: grid;
